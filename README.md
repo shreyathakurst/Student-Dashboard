@@ -1,12 +1,29 @@
-# React + Vite
+# 🎓 Student Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React-based dashboard for managing a list of students. This application allows users to view, filter, and add student entries, with authentication handled via Firebase. All data is fetched from a simulated mock API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔒 **Firebase Authentication** (Email/Password)
+- 📋 **View Student List** from a mock API
+- 🧮 **Filter Students** by course
+- ➕ **Add New Student** (requires login)
+- 📱 **Responsive UI** for desktop and mobile
+- ✅ **Form Validation** for required fields and valid email format
+- 🚀 **Bonus**: Logout functionality, route protection, avatar generation, error handling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** (via Vite)
+- **Tailwind CSS**
+- **React Router v6**
+- **Firebase Auth**
+- **axios / axios-mock-adapter**
+
+---
+
+
